@@ -1,22 +1,168 @@
-.App {
-  text-align: center;
+/* classes */
+
+.parallax {
+    position: relative;
+    min-height: 700px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.parallax::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("/sb-big.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* This is to darken the image so white text shows up better, consider removing based on image */
+    filter: brightness(80%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.centered {
+    color: white;
+    text-align: center;
+    width: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+.main {
+    height: 1000px;
+    background-color: white;
+}
+
+.navbar-logo {
+    width: 50%;
+    height: 50%;
+}
+
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.image-card-text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image-card-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.image-card-subtitle {
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.large-card-container {
+    display: flex;
+    padding: 75px;
+}
+
+.large-card-container > img {
+    height: 35%;
+    width: 35%;
+}
+
+.large-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #A54440;
+    max-width: 100%
+}
+
+.code-of-conduct {
+    background-color: #A54440;
+    padding: 75px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.grid-element {
+    font-size: 5em;
+}
+
+/* Tags */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    font: normal normal normal 14px/1.79em sans-serif;
+}
+
+h1 {
+    font: normal normal normal 72px/1.25em BrandonGrotW01-Light, sans-serif;
+}
+
+h2 {
+    font: normal normal normal 50px/1.25em BrandonGrotW01-Light, sans-serif;
+}
+
+h3 {
+    font: normal normal normal 30px/1.25em BrandonGrotW01-Light, sans-serif;
+}
+
+p {
+    font: normal normal normal 20px/1.25em BrandonGrotW01-Light, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font: normal normal normal 40px/1.25em BrandonGrotW01-Light, sans-serif;
+    }
+
+    h2 {
+        font: normal normal normal 30px/1.25em BrandonGrotW01-Light, sans-serif;
+    }
+
+    p {
+        font: normal normal normal 20px/1.25em BrandonGrotW01-Light, sans-serif;
+    }
+
+    .parallax {
+        min-height: 500px;
+    }
+
+    .parallax::before {
+        background-size: 200%;
+    }
+
+    .large-card-container, .flex-container {
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+
+    .large-card-container > img {
+        width: 100%;
+        height: auto;
+    }
 }
