@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Navbar() {
-    return (<nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    return (<nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a className="navbar-brand n" href="#">
             <img className="navbar-logo" src={process.env.PUBLIC_URL + "ScalaBridge-small.png"}/>
         </a>
