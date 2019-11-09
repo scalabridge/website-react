@@ -97,6 +97,10 @@
     padding: 75px;
 }
 
+.sponsor {
+  padding: 75px;
+}
+
 .grid-wrapper {
     display: grid;
     grid-template-columns: max-content max-content max-content;
