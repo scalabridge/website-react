@@ -92,6 +92,11 @@
     max-width: 100%
 }
 
+.faq {
+    background-color: #F4FAFA;
+    padding: 75px;
+}
+
 .code-of-conduct {
     background-color: #A54440;
     padding: 75px;
@@ -109,6 +114,10 @@
 }
 
 /* Tags */
+
+.text-red {
+    color: #A54440;
+}
 
 img {
     max-width: 100%;
