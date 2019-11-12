@@ -20,8 +20,8 @@ function App() {
 
             <div className="main">
                 <LargeImageCard/>
-                <h2 className="p-2 text-center">WORKSHOPS</h2>
-                <p className="p-2 text-center">Making A Difference</p>
+                <h2 className="p-2 text-center">WHAT WE DO</h2>
+                <p className="p-2 text-center">Workshops & 12-Week Programs</p>
                 <p className="p-5 text-center">ScalaBridge workshops are free and available for underrepresented minorities in tech. The program usually take students through the basics of programming in Scala, teaching students functional programming and Scala fundamentals. Currently, we have one-day long workshops and as well as 12-week programs across the globe.</p>
                 <div className="flex-container">
                     <ImageCard topText="ADVOCACY" bottomText ="Helping The Community" image="card1.png" bgColor="#085255"/>

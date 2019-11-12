@@ -86,6 +86,7 @@
 
 .large-card {
     display: flex;
+    padding: 1.5rem;
     align-items: center;
     text-align: center;
     background-color: #A54440;
