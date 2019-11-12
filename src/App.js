@@ -5,6 +5,7 @@ import ImageCard from "./ImageCard";
 import LargeImageCard from "./LargeImageCard";
 import CodeOfConduct from "./CodeOfConduct";
 import Sponsors from "./Sponsors";
+import Footer from "./Footer";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
                 <CodeOfConduct/>
                 <Sponsors/>
             </div>
+            <Footer/>
         </div>
     );
 }
