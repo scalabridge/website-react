@@ -103,7 +103,7 @@
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: max-content max-content max-content;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 50px;
     justify-content: space-evenly;
 }
@@ -168,14 +168,5 @@ p {
     .large-card-container > img {
         width: 100%;
         height: auto;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .grid-wrapper {
-        display: grid;
-        grid-template-columns: max-content max-content;
-        grid-gap: 50px;
-        justify-content: space-evenly;
     }
 }
