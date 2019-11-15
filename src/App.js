@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from "./Navbar";
 import ImageCard from "./ImageCard";
 import LargeImageCard from "./LargeImageCard";
+import FrequentlyAQ from "./FrequentlyAQ";
 import CodeOfConduct from "./CodeOfConduct";
 import Sponsors from "./Sponsors";
 
@@ -28,6 +29,7 @@ function App() {
                     <ImageCard topText="SUPPORT" bottomText ="Reinforcing our Commitment" image="card2.png" bgColor="#A54440"/>
                     <ImageCard topText="EDUCATION" bottomText ="One Step at a Time" image="card3.png" bgColor="#E2ABA9"/>
                 </div>
+                <FrequentlyAQ />
                 <CodeOfConduct/>
                 <Sponsors/>
             </div>
