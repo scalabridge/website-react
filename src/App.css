@@ -170,3 +170,12 @@ p {
         height: auto;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-gap: 50px;
+        justify-content: space-evenly;
+    }
+}
