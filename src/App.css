@@ -89,10 +89,16 @@
 
 .large-card {
     display: flex;
+    padding: 1.5rem;
     align-items: center;
     text-align: center;
     background-color: #A54440;
     max-width: 100%
+}
+
+.faq {
+    background-color: #F4FAFA;
+    padding: 75px;
 }
 
 .code-of-conduct {
@@ -153,6 +159,9 @@ body {
 
 footer {
     height: 120px;
+}
+.text-red {
+    color: #A54440;
 }
 
 img {
