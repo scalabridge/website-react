@@ -219,9 +219,7 @@ p {
         width: 100%;
         height: auto;
     }
-}
-
-@media only screen and (max-width: 575px) {
+    
     .show-on-sm {
         display: static;
     }
@@ -242,7 +240,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
     .show-on-sm {
         display: none;
     }
