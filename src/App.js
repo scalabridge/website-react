@@ -8,7 +8,6 @@ import CodeOfConduct from "./CodeOfConduct";
 import Sponsors from "./Sponsors";
 import Footer from "./Footer";
 
-
 function App() {
     return (
         <div>
@@ -19,7 +18,6 @@ function App() {
                     <h3>Working Towards a Brighter Future</h3>
                 </div>
             </div>
-
             <div className="main">
                 <LargeImageCard/>
                 <h2 className="p-2 text-center">WHAT WE DO</h2>
