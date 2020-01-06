@@ -3,13 +3,15 @@ import PropTypes from 'prop-types';
 import './EventCard.css'
 
 function EventCard(props) {
-  console.log('card title', props.title);
-  console.log('card description', props.description);
   return (
-    <div className="image-card-text text-white">
+    <div className="event-card-container">
       <div style={{width: '100%'}}>
-          <p className='event-card-title'>{props.title}</p>
+          <h2 className='event-card-title'>{props.title}</h2>
           <p className='event-card-description'>{props.description}</p>
+          <div className='event-card-post-meta'>
+            <img className='portrait' style={{'object-fit': 'cover'}} src={props.image}/>
+            <p>{props.date} at {props.location}</p>
+          </div>
       </div> 
   </div>);
 }
@@ -17,6 +19,7 @@ function EventCard(props) {
 EventCard.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
+  date: PropTypes.string,
   location: PropTypes.string,
   image: PropTypes.string
 };

@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Events from "./Events";
 
 function Navbar() {
     return (
@@ -23,7 +22,6 @@ function Navbar() {
                     {/* <Link to='/impact'>Our Impact</Link> */}
                 </li>
                 <li className="nav-item">
-                    {/* <a className="nav-link" href="/Events" >Events</a> */}
                     <Link to='/events'>Events</Link>
                 </li>
                 <li className="nav-item">

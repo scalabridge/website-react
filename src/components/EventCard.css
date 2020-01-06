@@ -1,7 +1,27 @@
+.event-card-container {
+  opacity: 1;
+  margin: 0 20px;
+}
+
 .event-card-title {
-  color: black
+  font-size: bold;
+  letter-spacing: 0.01em;
+  margin-top: 80px;
 }
 
 .event-card-description {
-  color: black
+  color: rgba(2,21,33,0.8);
+  line-height: 1.5;
+}
+
+.event-card-post-meta {
+  margin-top: 20px;
+  color: rgba(2,21,33,0.6);
+}
+
+.event-card-post-meta > p {
+  float: left;
+  height: 50px;
+  margin: 0px;
+  line-height: 50px;
 }
