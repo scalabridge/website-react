@@ -8,7 +8,6 @@ class Events extends React.Component {
   render() {
     return (
       <div className='event-page-container'>
-        <h1>History of ScalaBridge Workshops</h1>
         <Navbar/>
         {EVENT_INFO.map(event => {
           return (
@@ -17,7 +16,7 @@ class Events extends React.Component {
               description={event.description}
               date={event.date}
               location={event.location}
-              image={event.image}
+              image='city-placeholder.png'//event.image
             />
           )
         })}

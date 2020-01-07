@@ -1,9 +1,117 @@
-[
+[ 
+  {
+    "title": "NYC Summit",
+    "description": "One day of recorded talks and one day of unconference, co-located with NE Scala.",
+    "date": "March 12, 2020",
+    "location": "26 Bridge Street, Brooklyn"
+  },
+  {
+    "title": "Lausanne Summit",
+    "description": "One day of talks, co-located with the anniversary Scala Days.",
+    "date": "June 14, 2019",
+    "location": "École Polytechnique Fédérale de Lausanne"
+  },
   {
     "title": "Philadelphia Summit",
     "description": "One day of recorded talks and one day of unconference, co-located with NE Scala.",
-    "date": "March 2-3, 2016",
-    "location": "Hub's Cira Centre"
+    "date": "April 1, 2019",
+    "location": "Science History Institute, Philadelphia"
+  },
+  {
+    "title": "Berlin Summit",
+    "description": "One day of recorded talks after Scala Days.",
+    "date": "May 18, 2018",
+    "location": "Zalando, Zeughofstraße 1, Berlin"
+  },
+  {
+    "title": "Boston Summit",
+    "description": "One day of recorded talks and one day of unconference, co-located with NE Scala.",
+    "date": "March 20, 2018",
+    "location": "Broad Institute, Cambridge, Massachusetts"
+  },
+  {
+    "title": "Cádiz Unconference",
+    "description": "Co-located with Lambda World.",
+    "date": "October 26th, 2017",
+    "location": "Palacio de Congresos de Cádiz"
+  },
+  {
+    "title": "Copenhagen Summit",
+    "description": "One day of talks, co-located with Scala Days.",
+    "date": "June 3, 2017",
+    "location": "Comwell Conference Center Copenhagen, Denmark"
+  },
+  {
+    "title": "NYC Summit",
+    "description": "One day of recorded talks and one day of unconference, co-located with NE Scala.",
+    "date": "March 23, 2017",
+    "location": "26 Bridge Street, Brooklyn"
+  },
+  {
+    "title": "London Hack Day",
+    "description": "This is the ninth Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "January 21, 2017",
+    "location": "Salesforce Tower, Bishopsgate, London"
+  },
+  {
+    "title": "ScalaxHack",
+    "description": "Free unconference and hack day, co-located with Scala Exchange.",
+    "date": "December 10, 2016",
+    "location": "CodeNode, London"
+  }, 
+  {
+    "title": "London Hack Day",
+    "description": "This is the seventh Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "November 12, 2016",
+    "location": "Salesforce Tower, Bishopsgate, London"
+  }, 
+  {
+    "title": "Scala.IO",
+    "description": "The Scala event in France, organized by French Scala community volunteers.",
+    "date": "October 27-28, 2016",
+    "location": "CPE Lyon, France"
+  },
+  {
+    "title": "London Hack Day",
+    "description": "This is the sixth Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "October 15, 2016",
+    "location": "Salesforce Tower, Bishopsgate, London"
+  },
+  {
+    "title": "Cádiz Community Conference",
+    "description": "Co-located with Lambda World.",
+    "date": "September 30, 2016",
+    "location": "Palacio de Congresos de Cádiz"
+  },
+  {
+    "title": "London Hack Day",
+    "description": "This is the fifth Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "September 17, 2016",
+    "location": "Salesforce Tower, Bishopsgate, London"
+  },
+  {
+    "title": "Penrith Workshop",
+    "description": "Talks in the morning & unconference in the afternoon, co-located with Scala World.",
+    "date": "September 14, 2016",
+    "location": "Rheged Centre, Penrith"
+  },
+  {
+    "title": "London Hack Day",
+    "description": "This is the fourth Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "August 13, 2016",
+    "location": "Hydrogen Group, Eastcheap, London"
+  },
+  {
+    "title": "London Hack Day",
+    "description": "This is the third Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "July 16, 2016",
+    "location": "Hydrogen Group, Eastcheap, London"
+  },
+  {
+    "title": "London Hack Day",
+    "description": "This is the second Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
+    "date": "June 11, 2016",
+    "location": "Salesforce Tower, Bishopsgate, London"
   },
   {
     "title": "Oslo Summit",
@@ -12,9 +120,9 @@
     "location": "Teknologihuset"
   },
   {
-    "title": "London Hack Day",
-    "description": "This is the second Typelevel hack day in conjunction with the London Scala User Group and Hack The Tower.",
-    "date": "June 11, 2016",
-    "location": "Salesforce Tower, Bishopsgate, London"
+    "title": "Philadelphia Summit",
+    "description": "One day of recorded talks and one day of unconference, co-located with NE Scala.",
+    "date": "March 2-3, 2016",
+    "location": "Hub's Cira Centre"
   }
 ]
