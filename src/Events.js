@@ -16,7 +16,7 @@ class Events extends React.Component {
               description={event.description}
               date={event.date}
               location={event.location}
-              image='city-placeholder.png'//event.image
+              url={event.url}
             />
           )
         })}
