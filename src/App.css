@@ -106,9 +106,13 @@
     padding: 75px;
 }
 
+.sponsor {
+  padding: 75px;
+}
+
 .grid-wrapper {
     display: grid;
-    grid-template-columns: max-content max-content max-content;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 50px;
     justify-content: space-evenly;
 }
