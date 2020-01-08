@@ -14,12 +14,24 @@ function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-                <Link to='/' className='active'>About</Link>
-                <Link to='/'>Our Impact</Link>
-                <Link to='/events'>Events</Link>
-                <Link to='/'>Organizers</Link>
-                <Link to='/'>Mentors</Link>
-                <Link to='/'>Curriculums</Link>
+                <li className="nav-item">
+                    <Link to='/' className='active nav-link'>About</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/' className="nav-link">Our Impact</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/events' className="nav-link">Events</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/' className="nav-link">Organizers</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/' className="nav-link">Mentors</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/' className="nav-link">Curriculums</Link>
+                </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#"><i className="fa fa-twitter" aria-hidden="true"/></a>
                 </li>
