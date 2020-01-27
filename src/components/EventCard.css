@@ -1,0 +1,44 @@
+.event-card-container {
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.event-card-title {
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  margin-top: 80px;
+  color: #35444D;
+  font-size: 34px;
+  font-family: georgia serif;
+}
+
+.event-link {
+  font-size: 18px;
+}
+
+.event-card-description {
+  color: rgba(2,21,33,0.8);
+  line-height: 1.5;
+  font-family: avenir;
+  font-size: 16px;
+}
+
+.event-card-post-meta {
+  margin-top: 20px;
+  min-height: 70px;
+  max-height: 70px;
+  color: rgba(2,21,33,0.8);
+  font-size: 16px;
+  font-family: avenirLtStd-Book, Avenir;
+}
+
+.event-card-location {
+  margin: 0 10px;
+}
+
+.event-card-post-meta > p {
+  float: left;
+  height: 50px;
+  margin: 0px;
+  line-height: 50px;
+}

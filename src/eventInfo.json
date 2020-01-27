@@ -1,0 +1,128 @@
+[ 
+  {
+    "title": "Seattle, WA",
+    "description": "ScalaBridge Seattle - Intro to Programming in Scala",
+    "date": "Sun 9/16/2018",
+    "location": "47 Degrees",
+    "url": "https://www.bridgetroll.org/events/440"
+  },
+  {
+    "title": "San Francisco, CA",
+    "description": "Scala Bridge at Iterable",
+    "date": "Thu 9/13/2018",
+    "location": "Iterable",
+    "url":"https://www.bridgetroll.org/events/440"
+  },
+  {
+    "title": "Boston, MA",
+    "description": "ScalaBridge First Boston Workshop - Intro to Programming with Scala",
+    "date": "Sun 8/5/2018",
+    "location": "Hopper",
+    "url":"https://www.bridgetroll.org/events/438"
+  },
+  {
+    "title": " New York, NY",
+    "description": "ScalaBridge New York - Intro to Programming with Scala",
+    "date": "Tues 06/19/2018",
+    "location": "iHeartRadio",
+    "url": "https://www.bridgetroll.org/events/430"
+  },
+  {
+    "title": "Stockholm, Sweden",
+    "description": "Intro and Applied Functional Programming with Scala",
+    "date": "Sat 5/26/2018",
+    "location": "Klarna",
+    "url": "https://www.bridgetroll.org/events/433"
+  },
+  {
+    "title": "San Francisco, CA",
+    "description": "Scala Workshop at Domino Data Lab",
+    "date": "Fri 4/20/2018",
+    "location": "Domino Data Lab",
+    "url": "https://www.bridgetroll.org/events/388"
+  },
+  {
+    "title": "Kraków, Poland",
+    "description": "Scala Workshop",
+    "date": "04/15/2018",
+    "location": "VirtusLab",
+    "url": "https://www.meetup.com/Krakow-Scala-User-Group/events/249387632/"
+  },
+  {
+    "title": "Chicago, IL",
+    "description": "ScalaBridge Chicago - Intro to Programming with Scala",
+    "date": "Sat 1/27/2018",
+    "location": "8th Light",
+    "url": "https://www.bridgetroll.org/events/375"
+  },
+  {
+    "title": "Stockholm, Sweden",
+    "description": "ScalaBridge Stockholm Intro to Programming with Scala",
+    "date": "Sat 11/25/2017",
+    "location": "Klarna",
+    "url": "https://www.bridgetroll.org/events/370"
+  }, 
+  {
+    "title": "San Francisco, CA",
+    "description": "Scala Workshop",
+    "date": "Fri 8/18/2017",
+    "location": "Radius Intelligence",
+    "url": "https://www.bridgetroll.org/events/366"
+  }, 
+  {
+    "title": "New York, NY",
+    "description": "ScalaBridge New York Intro to Programming in Scala",
+    "date": "Fri 6/30/2017",
+    "location": "Meetup HQ",
+    "url": "https://www.bridgetroll.org/events/359"
+  },
+  {
+    "title": "Zürich, Switzerland",
+    "description": "Intro to Programming with Scala",
+    "date": "6/10/2017",
+    "location": "Teralytics AG",
+    "url": "https://www.meetup.com/ScalaBridge-Switzerland/events/240556629/"
+  },
+  {
+    "title": "Berlin, Germany",
+    "description": "ScalaBridge Berlin Intro to Programming with Scala",
+    "date": "Fri 6/9/2017",
+    "location": "innoQ Deutschland (Berlin office)",
+    "url": "https://www.bridgetroll.org/events/349"
+  },
+  {
+    "title": "Copenhagen, Denmark",
+    "description": "ScalaBridge Copenhagen",
+    "date": "Tue 5/30/2017",
+    "location": "AC Bella Sky",
+    "url": "https://www.bridgetroll.org/events/354"
+  },
+  {
+    "title": "Basel, Switzerland",
+    "description": "Intro to Programming with Scala",
+    "date": "4/01/2017",
+    "location": "Kleinhafen",
+    "url": "https://www.meetup.com/ScalaBridge-Switzerland/events/238438857/"
+  },
+  {
+    "title": "Seattle, WA",
+    "description": "ScalaBridge Seattle Intro to Programming with Scala",
+    "date": "Fri 2/17/2017",
+    "location": "Marchex",
+    "url": "https://www.bridgetroll.org/events/334"
+  },
+  {
+    "title": "San Francisco, CA",
+    "description": "Scala Workshop",
+    "date": "Fri 2/11/2017",
+    "location": "Sharethrough",
+    "url": "https://www.bridgetroll.org/events/333"
+  },
+  {
+    "title": "San Francisco, CA",
+    "description": "ScalaBridge Curriculum Hack Day",
+    "date": "Fri 7/30/2016",
+    "location": "Sharethrough",
+    "url": "https://www.eventbrite.com/e/scalabridge-curriculum-hack-day-tickets-6131325961"
+  }
+]
